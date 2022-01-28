@@ -341,11 +341,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '贫弱！贫弱！';
-    if (score <= 99) return '不做人啦';
-    if (score <= 149) return '真的是嗨到不行';
+    if (score <= 49) return '平角裤！平角裤！';
+    if (score <= 99) return '人活在世上要靠两样东西，胆识和智慧';
+    if (score <= 149) return '1138 do you feel me？';
     if (score <= 199) return '您';
-    return '人？';
+    就是邪恶道把门大弟子';
 }
 
 function toStr(obj) {
